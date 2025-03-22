@@ -1,0 +1,23 @@
+{
+  "name": "lab-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B122410329/berr2243-25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B122410329/berr2243-25/issues"
+  },
+  "homepage": "https://github.com/B122410329/berr2243-25#readme",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.15.0"
+  }
+}
