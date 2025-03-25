@@ -3,7 +3,7 @@
 ## Description
 This is Exercise 1 for the subject **BERR 2243 - Database And Cloud System**. The project involves setting up a development environment, learning Git workflows, and creating a simple Node.js script to connect to MongoDB, insert a document, and retrieve it.
 
-## Installation Steps
+## Installation Steps for Exercise 1
 
 ### 1. Install Development Tools
 - **VSCode**: Download from [VSCode](https://code.visualstudio.com/).
@@ -76,8 +76,8 @@ This is Exercise 1 for the subject **BERR 2243 - Database And Cloud System**. Th
 ## Project Structure
 ```
 /project-root
-├── index.js
-├── package.json
-├── .gitignore
-└── README.md
+i) index.js
+ii) package.json
+iii) .gitignore
+iv) README.md
 ```
