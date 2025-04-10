@@ -66,7 +66,7 @@ async function main() {
         console.log(`Driver deleted: ${deleteResult.deletedCount} document(s)`);
     
     } catch (error) {
-        console.error("An error occurred:", error); // ✅ Better error handling
+        console.error("An error occurred:", error); // 
     } finally {
         await client.close();
     }
