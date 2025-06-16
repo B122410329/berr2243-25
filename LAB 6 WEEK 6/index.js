@@ -17,19 +17,19 @@ const client = new MongoClient(uri);
 let db;
 
 client.connect().then(() => {
-  db = client.db('e-hailing'); // Replace with your DB name
+    db = client.db('e-hailing'); // Replace with your DB name
     console.log("Connected to MongoDB");
 });
 
 // Step 1: Register User
 app.post('/users', async (req, res) => {
     try {
-    const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
-    const user = { ...req.body, password: hashedPassword };
-    await db.collection('users').insertOne(user);
-    res.status(201).json({ message: "User created" });
-    } catch (err) {
-    res.status(400).json({ error: "Registration failed" });
+        const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
+        const user = { ...req.body, password: hashedPassword };
+        await db.collection('users').insertOne(user);
+        res.status(201).json({ message: "User created" });
+    }   catch (err) {
+        res.status(400).json({ error: "Registration failed" });
     }
 });
 
