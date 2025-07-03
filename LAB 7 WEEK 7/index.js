@@ -11,7 +11,7 @@ let db;
 async function startServer() {
     try {
         await client.connect();
-        db = client.db("eHailing"); // Pastikan nama DB betul
+        db = client.db("e-hailing"); // Pastikan nama DB betul
         console.log("✅ Connected to MongoDB");
 
         app.listen(port, () => {

@@ -16,13 +16,13 @@
     "url": "https://github.com/B122410329/berr2243-25/issues"
   },
   "homepage": "https://github.com/B122410329/berr2243-25#readme",
-  "description": "",
+  "description": "This is Exercise 1 for the subject **BERR 2243 - Database And Cloud System**. The project involves setting up a development environment, learning Git workflows, and creating a simple Node.js script to connect to MongoDB, insert a document, and retrieve it.",
   "dependencies": {
     "bcrypt": "^6.0.0",
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.6.1",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.16.0",
+    "mongodb": "^6.17.0",
     "mongoose": "^8.13.0"
   }
 }
